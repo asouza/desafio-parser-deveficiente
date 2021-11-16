@@ -1,13 +1,13 @@
 package br.com.deveficiente.desafioparser;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
 class DesafioParserApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void teste() {
+		
+		System.out.println("testando");
 	}
 
 }

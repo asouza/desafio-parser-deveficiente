@@ -7,9 +7,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
 public class DesafioParserApplication {
 
 	public static void main(String[] args) throws URISyntaxException, IOException {
@@ -18,7 +15,10 @@ public class DesafioParserApplication {
 		
 		List<String> inputLines = Files.readAllLines(arquivoMarkdown);
 		
-		System.out.println(inputLines);
+//		o objetivo é construir um parser simples que permita que para
+//		cada header encontrado um código cliente que ainda vai ser implementado
+//		seja chamado
+		
 
 	}
 
